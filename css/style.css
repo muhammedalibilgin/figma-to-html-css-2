@@ -6,7 +6,6 @@
 @import url(qua-answer.css);
 
 body {
-    background-color: red;
     font-family: "poppins", "sans-serif";
 }
 
@@ -53,7 +52,6 @@ p {
 /* MALİ */
 
 #muhammedali {
-    /* background-color: yellowgreen; */
     display: flex;
     flex-direction: column;
     justify-content: center;

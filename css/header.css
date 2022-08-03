@@ -111,8 +111,11 @@ a {
     order: 2;
     flex-grow: 0;
 
-    color: white;
     font-weight: 600;
     line-height: 18px;
     size: 18px;
+}
+.header #frame-935 a {
+    color: #ffffff;
+    opacity: 100%;
 }
