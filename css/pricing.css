@@ -1,0 +1,167 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 80px;
+
+    position: absolute;
+    width: 1440px;
+    height: 978px;
+    left: 0px;
+    top: 1057px;
+}
+
+/* EXPLAİN */
+
+.pricing .explain {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 1000px;
+    height: 124px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.pricing .explain h1 {
+    width: 1000px;
+    height: 52px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.pricing .explain p {
+    width: 1000px;
+    height: 52px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* PLAN */
+
+.pricing .plan {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 40px;
+    gap: 20px;
+
+    width: 540px;
+    height: 694px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.pricing .plan .plan-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 40px;
+
+    width: 540px;
+    height: 260px;
+
+    background: rgba(196, 0, 0, 0.03);
+    border-radius: 0px 0px 10px 10px;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #c40000;
+}
+
+.pricing .plan .plan-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 40px;
+    gap: 20px;
+
+    width: 540px;
+    height: 184px;
+}
+
+.flex-plan {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+
+    width: 460px;
+    height: 26px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.pricing .plan .plan-three {
+    clear: both;
+    display: block;
+    width: 460px;
+    height: 0px;
+
+    background: #00000080;
+    opacity: 50%;
+
+    /* border: 2px solid #00000080; */
+}
+
+.plan .plan-four .plan-four-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.plan .plan-four .plan-four-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px 40px;
+    gap: 10px;
+
+    width: 226px;
+    height: 60px;
+
+    background: #000000;
+    border-radius: 5px;
+}
+.plan .plan-four .plan-four-2 span {
+    width: 146px;
+    height: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #ffffff;
+}

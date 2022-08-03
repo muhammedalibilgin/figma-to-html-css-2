@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url(header.css);
+@import url(two.css);
+@import url(partners.css);
+@import url(pricing.css);
+@import url(qua-answer.css);
+
+body {
+    background-color: red;
+    font-family: "poppins", "sans-serif";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1440px;
+    height: 3891px;
+    background: #ffffff;
+}
+
+/* MALİ */
+
+#muhammedali {
+    /* background-color: yellowgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    gap: 60px;
+
+    position: absolute;
+    width: 1440px;
+    height: 586px;
+    left: 0px;
+    top: 3305px;
+
+    background: #000000;
+
+    color: #ffffff;
+}
+
+#muhammedali a {
+    color: #ffffff;
+}
